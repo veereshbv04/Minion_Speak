@@ -121,8 +121,17 @@ button{
 
 
 
-
-
+.section-0{
+    padding: 0rem;
+}
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.container-centered{
+    max-width: 900px;
+    margin: auto;
+}
 
 
 
