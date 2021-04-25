@@ -1,11 +1,12 @@
-var btnTransalate= document.querySelector("#btn-translate");
-var txtinput=document.querySelector("#txt-input");
-
-
+console.log("Script is working from a differsnt file");
+var btnTranslate = document.querySelector("#btn-translate");
+var textInput = document.querySelector("#txt-input");
 
 function clickHandler(){
-    console.log("clicked");
-
+    console.log("Button is clicked");
+    console.log("input",textInput.value)
 }
 
-btnTransalate.addEventListener("click",clickHandler)
+
+
+btnTranslate.addEventListener("click",clickHandler);
